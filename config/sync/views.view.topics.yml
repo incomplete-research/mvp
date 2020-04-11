@@ -562,7 +562,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: user/%user/topics
+      path: user/%user/studies
       menu:
         type: none
         title: Topics

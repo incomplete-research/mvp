@@ -4,8 +4,6 @@ status: true
 dependencies:
   config:
     - flag.flag.follow_content
-    - node.type.event
-    - node.type.page
     - node.type.topic
     - user.role.authenticated
   module:
@@ -308,10 +306,6 @@ display:
           admin_label: ''
           operator: in
           value:
-            all: all
-            page: page
-            book: book
-            event: event
             topic: topic
           group: 1
           exposed: true
@@ -321,6 +315,8 @@ display:
             description: ''
             use_operator: false
             operator: type_op
+            operator_limit_selection: false
+            operator_list: {  }
             identifier: type
             required: false
             remember: false
@@ -332,8 +328,6 @@ display:
               contentmanager: '0'
               sitemanager: '0'
             reduce: false
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
