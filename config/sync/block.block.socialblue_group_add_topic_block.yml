@@ -17,12 +17,12 @@ provider: null
 plugin: group_add_topic_block
 settings:
   id: group_add_topic_block
-  label: 'Group add topic block'
+  label: 'Group add study block'
   provider: social_group
   label_display: '0'
 visibility:
   request_path:
     id: request_path
-    pages: '/group/*/topics'
+    pages: '/group/*/studies'
     negate: false
     context_mapping: {  }

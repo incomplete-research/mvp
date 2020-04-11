@@ -18,7 +18,7 @@ dependencies:
 _core:
   default_config_hash: QfYYx-ckbKscwFS5Uy5F8QSkZx1T0fqPvxC_T-sUwtE
 id: group_topics
-label: 'Group Topics'
+label: 'Group Studies'
 module: views
 description: ''
 tag: ''
@@ -338,7 +338,7 @@ display:
           entity_type: node
           entity_field: created
           plugin_id: date
-      title: 'Group Topics'
+      title: 'Group Studies'
       header: {  }
       footer: {  }
       empty:
@@ -439,7 +439,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: group/%group/topics
+      path: group/%group/study
       exposed_block: true
     cache_metadata:
       max-age: -1

@@ -15,9 +15,9 @@ dependencies:
 _core:
   default_config_hash: kNQzSfXX8rkuLW6sShN4jOTkvcw46d45nxR-RxzEg4M
 id: latest_topics
-label: 'Latest topics'
+label: 'Latest studies'
 module: views
-description: 'Displays the newest topics in the community'
+description: 'Displays the newest studies in the community'
 tag: ''
 base_table: node_field_data
 base_field: nid
@@ -193,7 +193,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'All topics'
+      title: 'All studies'
       header: {  }
       footer: {  }
       empty:
@@ -206,7 +206,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'No topics found'
+          content: 'No study found'
           plugin_id: text_custom
       relationships: {  }
       arguments: {  }
@@ -227,8 +227,8 @@ display:
     display_options:
       display_extenders: {  }
       display_description: ''
-      block_description: 'Latest topic block'
-      title: 'Newest topics'
+      block_description: 'Latest study block'
+      title: 'Newest studies'
       defaults:
         title: false
         use_more: false
@@ -248,12 +248,12 @@ display:
   group_topics_block:
     display_plugin: block
     id: group_topics_block
-    display_title: 'Latest topics group'
+    display_title: 'Latest studies group'
     position: 3
     display_options:
       display_extenders: {  }
       display_description: ''
-      block_description: 'Latest group topics'
+      block_description: 'Latest group studies'
       empty:
         area_text_custom:
           id: area_text_custom
@@ -330,7 +330,7 @@ display:
         type: perm
         options:
           perm: 'access content'
-      title: 'Newest topics'
+      title: 'Newest studies'
       use_more: true
       use_more_always: true
       use_more_text: 'All topics'
@@ -347,7 +347,7 @@ display:
   page_latest_topics:
     display_plugin: page
     id: page_latest_topics
-    display_title: 'Latest topics page'
+    display_title: 'Latest studies page'
     position: 2
     display_options:
       display_extenders: {  }
@@ -388,7 +388,7 @@ display:
             offset: false
             offset_label: Offset
           quantity: 9
-      path: all-topics
+      path: all-studies
       filters:
         status:
           value: '1'
