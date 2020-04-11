@@ -1,6 +1,6 @@
 uuid: fd2b9c89-ae53-4c6d-9c49-de429b56d3d2
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - social_group

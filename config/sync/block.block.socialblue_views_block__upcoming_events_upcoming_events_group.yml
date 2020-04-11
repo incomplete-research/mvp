@@ -1,6 +1,6 @@
 uuid: 89f3c27f-837e-424e-a790-da8f6149ae6c
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.upcoming_events

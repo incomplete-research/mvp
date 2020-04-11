@@ -1,6 +1,6 @@
 uuid: 6e4e6513-a69d-42d0-8cb2-098a8730791d
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.events

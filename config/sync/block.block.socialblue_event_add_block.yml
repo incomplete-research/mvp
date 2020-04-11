@@ -1,6 +1,6 @@
 uuid: dcd22ae1-1a28-42a9-ba26-e25ce53e5e1f
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - social_event
