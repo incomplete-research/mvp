@@ -1,0 +1,27 @@
+uuid: c0f70d47-5ba0-4afb-b0a1-f62815567d33
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - socialblue
+_core:
+  default_config_hash: 7gOwRKXY4A_b3Z2j-rC_uWgsGUJpsTFuB-wArf8T5as
+id: socialblue_local_actions
+theme: socialblue
+region: complementary_top
+weight: -18
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/admin/reports/*\r\n/group/*/membership\r\n/node/*/all-enrollments"
+    negate: true
+    context_mapping: {  }

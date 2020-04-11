@@ -1,0 +1,23 @@
+uuid: 59d3b41c-5b39-4bda-af5c-b6a5ab2592cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.message.field_message_destination
+    - message.template.create_like_node_or_post
+  module:
+    - options
+_core:
+  default_config_hash: AxrCDmEwvo4CzV99Bwcejg5zuEM43gmYOZZiS3JUpw0
+id: message.create_like_node_or_post.field_message_destination
+field_name: field_message_destination
+entity_type: message
+bundle: create_like_node_or_post
+label: field_message_destination
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

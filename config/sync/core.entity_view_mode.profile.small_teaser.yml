@@ -1,0 +1,12 @@
+uuid: d5c4e813-3091-4c59-9420-70da09936ef3
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: Yp6SgqzstA--gDA6fPPSX5wk9oakxwESaj__Ix05QPs
+id: profile.small_teaser
+label: 'Small Teaser'
+targetEntityType: profile
+cache: true

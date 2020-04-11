@@ -1,0 +1,10 @@
+uuid: 44098229-3c66-4e7d-aed2-19f7afb74efa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 07duPGP9oxxUlwAMpidiBE_twGxiTCkwiRlf1zRp7Pk
+id: platform_intro
+label: 'Platform introduction'
+revision: 0
+description: 'Platform introduction block, meant for use in content regions.'

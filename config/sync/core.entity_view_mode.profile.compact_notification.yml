@@ -1,0 +1,12 @@
+uuid: ac354e02-6be6-4191-8145-a5787a82bfeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: Nypcne34bIOGMtxAJk5Xc0YD9YATiqy8ZrRYcf6JXYc
+id: profile.compact_notification
+label: 'Compact Notifcation'
+targetEntityType: profile
+cache: true
