@@ -236,7 +236,7 @@ display:
         use_more_text: false
       use_more: true
       use_more_always: true
-      use_more_text: 'All topics'
+      use_more_text: 'All studies'
     cache_metadata:
       max-age: -1
       contexts:
@@ -333,7 +333,7 @@ display:
       title: 'Newest studies'
       use_more: true
       use_more_always: true
-      use_more_text: 'All topics'
+      use_more_text: 'All studies'
     cache_metadata:
       max-age: -1
       contexts:
