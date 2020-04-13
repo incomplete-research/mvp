@@ -10,11 +10,13 @@ dependencies:
     - group.type.closed_group
     - group.type.open_group
     - group.type.public_group
+    - user.role.administrator
   module:
     - datetime
     - group
     - node
     - social_event
+    - user
 _core:
   default_config_hash: ayyzZSZqxgqYWQ5O4j1FONP61Z78yXu25ir4TuyZqDg
 id: group_events
@@ -32,9 +34,10 @@ display:
     position: 0
     display_options:
       access:
-        type: group_permission
+        type: role
         options:
-          group_permission: 'view group_node:event content'
+          role:
+            administrator: administrator
       cache:
         type: tag
         options: {  }
@@ -353,11 +356,10 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - route.group
         - url
         - url.query_args
-        - user.group_permissions
         - 'user.node_grants:view'
+        - user.roles
       tags: {  }
   page_group_events:
     display_plugin: page
@@ -373,9 +375,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - route.group
         - url
         - url.query_args
-        - user.group_permissions
         - 'user.node_grants:view'
+        - user.roles
       tags: {  }

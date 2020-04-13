@@ -27,7 +27,6 @@ permissions:
   - 'cancel account'
   - 'change own username'
   - 'create closed_group group'
-  - 'create event content'
   - 'create open_group group'
   - 'create public_group group'
   - 'create topic content'
